@@ -1,2 +1,2 @@
 # python-stego
-getting the hidden message of image RGB's in python 
+getting the hidden message of image rgb's in python 
