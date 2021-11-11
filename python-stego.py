@@ -34,7 +34,7 @@ for i in nozero:
             i = chr(int(str[:8], 2))  # ASCII char from each 8 bits number converted to decimal
             message = message + i   # joins each char to a message
 
-print("Looking for the flag...")
+print("looking for hidden message")
 regex = re.compile("(hidden message is:[.*])") # creating the pattern to find the flag inside the message
 found = regex.search(message)   # searching regex in the message
 
