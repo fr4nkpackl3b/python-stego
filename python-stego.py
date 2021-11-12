@@ -35,7 +35,7 @@ for i in nozero:
             message = message + i   # joins each char to a message
 
 print("looking for hidden message")
-regex = re.compile("(hidden message is:[.*])") # creating the pattern to find the flag inside the message
+regex = re.compile("(hidden message is:[.*])") # creating the pattern to find the message inside the image
 found = regex.search(message)   # searching regex in the message
 
 if found:
